@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "built.bat"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "mods/amendments.pw.toml"
 hash = "58fba241b59c54f307b0746f88398b4c0ca93f007aaba36d75c583fd1d5e46a5"
 metafile = true
@@ -8,6 +12,11 @@ metafile = true
 [[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "eb0d74103b07e202b36d7e7e0957afc054d9622acf8ecb738e5856b5144a7b3b"
+metafile = true
+
+[[files]]
+file = "mods/cardinal-components-api.pw.toml"
+hash = "6f0676fe7167a5a5e992ac1588e5a7f62bb6ffcaad158d7f1ace220c73adb938"
 metafile = true
 
 [[files]]
@@ -117,7 +126,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "fc68ea3064eb401b4541911a88ce43d96e34a96faf541fcf6365a8b8ae5269be"
+hash = "2245f34c6d75a8abbce9a07f902d656b34387bcf1c4b60f56ec094ac8a470e19"
 metafile = true
 
 [[files]]
