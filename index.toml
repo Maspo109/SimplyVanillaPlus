@@ -1,0 +1,236 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/amendments.pw.toml"
+hash = "58fba241b59c54f307b0746f88398b4c0ca93f007aaba36d75c583fd1d5e46a5"
+metafile = true
+
+[[files]]
+file = "mods/bellsandwhistles.pw.toml"
+hash = "eb0d74103b07e202b36d7e7e0957afc054d9622acf8ecb738e5856b5144a7b3b"
+metafile = true
+
+[[files]]
+file = "mods/cave-dust.pw.toml"
+hash = "caa149e34c68c8d5437857f8d6f8f56321b8e3a00b23e0b0132356d155a69360"
+metafile = true
+
+[[files]]
+file = "mods/chunky-pregenerator.pw.toml"
+hash = "8f3e01ad47042d186087576cd17e91f78576295e7ca16fb885550910cb97caa4"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "403c99e6b3c7f03bfc1ef8f0a23c79d9929eb42658be02bd0911c36b0174cf5b"
+metafile = true
+
+[[files]]
+file = "mods/continuity.pw.toml"
+hash = "22b71ae09eedc60f269b781bf1ab1e07bb79344ef7f3a01be2d0340810a6372e"
+metafile = true
+
+[[files]]
+file = "mods/create-deco-fabric.pw.toml"
+hash = "04d95de568270ce6b115aefb77dd9a8a9511398d4305f1ca2798310b75851e67"
+metafile = true
+
+[[files]]
+file = "mods/create-fabric.pw.toml"
+hash = "252878ad67eb85e89d725478bd36a64ce6f84b247c3ac8a1851f3b4f553f11f4"
+metafile = true
+
+[[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "8d0c43fd826b1a5cda1af63e44a98470659b11ad4901ad3b07bff4baad3ef0b9"
+metafile = true
+
+[[files]]
+file = "mods/entity-texture-features-fabric.pw.toml"
+hash = "a86547eab618ad283a44dc7cc60e84727b34874d233060100da1f2508ec83bb8"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "8de441dd57379d434805fb87722233fa39e346a9152828e7ff49b0ed9b2bd518"
+metafile = true
+
+[[files]]
+file = "mods/ferritecore-fabric.pw.toml"
+hash = "28f53f38c111e3d6aa7f6854fa976a1456f4094dc504a929a6d4bf1f9f8cc30a"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "37df6121a88ff123078242134b0112c863cd219b6ce80bd4ec79c82a3bb4d8fa"
+metafile = true
+
+[[files]]
+file = "mods/indium.pw.toml"
+hash = "86b11054f5c68d3beb9c0fc3293c217296942f02748530c40821f9b7877e5961"
+metafile = true
+
+[[files]]
+file = "mods/irisshaders.pw.toml"
+hash = "d63f86a11cd51694948f270702cc670fc6e18b08515d8c7db3ed1dea95bb8d47"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "bc884d7d3038a7630fd884811c416d754f9e191075df216fb4972e736c475f3f"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-effect-descriptions-jeed.pw.toml"
+hash = "c8048f69fe8eec0317e2c414230d5ecf8e513220703006e6eea4a6e95ffc833b"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-professions-jep.pw.toml"
+hash = "db138a11b63abaf05df881ad73bdf5a4b67ad21bff0f040eec34cd18d46096e8"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-resources-jer.pw.toml"
+hash = "b38db45e00821e347147acd632bf17c91f9237a35adde827e2b8eb7c20274cb2"
+metafile = true
+
+[[files]]
+file = "mods/just-zoom.pw.toml"
+hash = "77fe56059b77b64c7db8d91dd4ac51ab9583ad34835c4b50810eb8024ec1cfff"
+metafile = true
+
+[[files]]
+file = "mods/justenoughbreeding.pw.toml"
+hash = "fc957c1a8599586a38f6f108f092e3f26eb6724640987a7c2ef2e4a8f7a2d442"
+metafile = true
+
+[[files]]
+file = "mods/konkrete-fabric.pw.toml"
+hash = "2895ab3b454293884e288a125bba2fbf4135475573c345ef919d56f2ad91419c"
+metafile = true
+
+[[files]]
+file = "mods/kurisus-passable-leaves.pw.toml"
+hash = "99532f67fd0a6be3493a22441362a56c1b579ce2c2b954d46aac6bba7e06d1bf"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "fc68ea3064eb401b4541911a88ce43d96e34a96faf541fcf6365a8b8ae5269be"
+metafile = true
+
+[[files]]
+file = "mods/mru.pw.toml"
+hash = "a54c73bb6cb200ced124c101db10b628820d61b20d944d989540af28800ce66c"
+metafile = true
+
+[[files]]
+file = "mods/naturalist.pw.toml"
+hash = "682470f6e9dafbd6a55dbba1f8b214258a37fc7eff47b307508498daa653623b"
+metafile = true
+
+[[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "9a0ab52020c3a2d073e71f07ce11b9d2d8ae0a17b8a3cf0c9227029a51df51c3"
+metafile = true
+
+[[files]]
+file = "mods/selene.pw.toml"
+hash = "e3a3f09574a365d665a6c62b75028f9c502549586c76d829c4898056459ca767"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "a695aa28fceaa3924eead1fb042b7b77ded1ca60a2129c8c16f3682d0beb9917"
+metafile = true
+
+[[files]]
+file = "mods/sound.pw.toml"
+hash = "58aa28a4a756b735f694d96dc367fc02c6fb7fcede3a71b76f3bf57363df5d9b"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "2f9771a57ba35be61e205cbf3fec83dc7f411c14fae5e64982dbf6fa94710486"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "67b8c6ae39e505e811416d77fba82bf45d713ed9ad240f0f7e0b6af1f300a14e"
+metafile = true
+
+[[files]]
+file = "mods/travelers-backpack-fabric.pw.toml"
+hash = "e06682a00fa1d72d89ab0d24bf82a98c2a8a613ab1873d3e9daf36deace5518c"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "2a08a399b364bc64bc2abb848cce938c1b87d0534a17fcb8a87ba80dbec7304d"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "16499c922a2bf62ecbc740979edb0040f3f2ecab032d005270aabea1a386d321"
+metafile = true
+
+[[files]]
+file = "mods/yungs-api-fabric.pw.toml"
+hash = "69ffae60381e09911815fb8f46af8300ddf3a06c00a312acd5b2494b47376274"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-desert-temples-fabric.pw.toml"
+hash = "20a940f56c69ac11318234b091909b71f589813915fcd96a0490dde7ef8c4e66"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-end-island-fabric.pw.toml"
+hash = "fb9dd1ce72451f8009f31d6c582d2660d8dda81dc8e45441581a3692e4e37e69"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-jungle-temples-fabric.pw.toml"
+hash = "7bcef92d3768536c3fcd7314f74eb7a119f03c7a1dbe63613e8566f34650e648"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-mineshafts-fabric.pw.toml"
+hash = "63db057013e7ba31e557a1504e38da45ddee8344784dd05e7298d675efacdf55"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-nether-fortresses-fabric.pw.toml"
+hash = "6e7faa2d21a0d399a8e2757d7cccba779ae950085c8a20fb363d7d502054c641"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-ocean-monuments-fabric.pw.toml"
+hash = "38c7400d5ce7e7898db989e40db02077c71b7eac4f2f2e25cf7e3132f8c2125b"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-strongholds-fabric.pw.toml"
+hash = "bb2ffc49da0846f59386631f9d0f18237d7eda977ec43a2d8c15bf9420797012"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-witch-huts-fabric.pw.toml"
+hash = "8b5b81909a6e41fbce4d440f1da6e6b1909629411906426e4affeada2151455f"
+metafile = true
+
+[[files]]
+file = "mods/yungs-bridges-fabric.pw.toml"
+hash = "d2e3001deb80cfe9a0093e3464dfd8ccc769712d66d3e9b7bd9a5c2dba4447ce"
+metafile = true
+
+[[files]]
+file = "mods/yungs-extras-fabric.pw.toml"
+hash = "578a1265c98172e7cc3b5ee84d9b7f39ce8ec1b02c5720a9a7bd323f8f431232"
+metafile = true
+
+[[files]]
+file = "mods/yungs-menu-tweaks-fabric.pw.toml"
+hash = "7f750030743730910111c4f2fa3a179be5dbdfab21cb9e2c5d2ba67b91743f15"
+metafile = true
