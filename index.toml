@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "built.bat"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "mods/amendments.pw.toml"
 hash = "58fba241b59c54f307b0746f88398b4c0ca93f007aaba36d75c583fd1d5e46a5"
 metafile = true
@@ -26,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/chunky-pregenerator.pw.toml"
-hash = "8f3e01ad47042d186087576cd17e91f78576295e7ca16fb885550910cb97caa4"
+hash = "193330274fc322994aaeec470348f721e75ea3f1b27f77139ba004d3db680643"
 metafile = true
 
 [[files]]
