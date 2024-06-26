@@ -1,14 +1,11 @@
 name: Release Modpack
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    types: [ "closed" ]
-    branches: [ "main" ]
+    tags:
+      - '*'
 
 jobs:
   release:
-    if: github.event.pull_request.merged || github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -17,13 +14,27 @@ jobs:
       - name: Install packwiz
         uses: actionhippie/install-packwiz@v1
 
+      - name: Get version
+        run: echo version=v$(grep -e "^version" pack.toml | cut -f3 -d' ' | tr -d '"') >> "$GITHUB_OUTPUT"
+        id: version
+
       - name: Run build script
         run: |
           chmod +x ./build.sh
           ./build.sh
 
-      - name: Upload files
-        uses: fnkr/github-action-ghr@v1
-        env:
-          GHR_PATH: build/
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create release
+        uses: actions/create-release@v1
+        id: create_release
+        with:
+          draft: false
+          prerelease: false
+          release_name: ${{ steps.version.outputs.version }}
+          tag_name: ${{ github.ref }}
+
+      - name: Upload assets
+        uses: csexton/release-asset-action@v3
+        with:
+          pattern: "build/*.zip"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          release-url: ${{ steps.create_release.outputs.upload_url }}
