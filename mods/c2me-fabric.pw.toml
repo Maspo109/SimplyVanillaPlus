@@ -1,0 +1,8 @@
+name = "Concurrent Chunk Management Engine (Fabric)"
+filename = "c2me-fabric-mc1.20.1-0.2.0+alpha.11.5.jar"
+side = "both"
+
+[download]
+url = "https://ci.codemc.io/job/RelativityMC/job/C2ME-fabric/job/ver%252F1.20.1/lastSuccessfulBuild/artifact/build/libs/c2me-fabric-mc1.20.1-0.2.0+alpha.11.5.jar"
+hash-format = "sha1"
+hash = "11bb288cb6a801b23be0c6b230c4e0979d955f50"

@@ -7,5 +7,7 @@
 
 /icon.png
 
+/.github
+/build
 /build.sh
 /build.bat

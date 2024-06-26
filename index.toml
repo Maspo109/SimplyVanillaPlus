@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/xaerominimap-common.txt"
+hash = "4d3bd59edaa749e038133d763f21e3773265a156d2347bbc23cf85071eaedd2e"
+
+[[files]]
 file = "mods/amendments.pw.toml"
 hash = "58fba241b59c54f307b0746f88398b4c0ca93f007aaba36d75c583fd1d5e46a5"
 metafile = true
@@ -8,6 +12,11 @@ metafile = true
 [[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "eb0d74103b07e202b36d7e7e0957afc054d9622acf8ecb738e5856b5144a7b3b"
+metafile = true
+
+[[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "34b7ad1eab94524f97a31f3d2f95ab11f4c9f84c804ce5c8874014f56da5ef57"
 metafile = true
 
 [[files]]

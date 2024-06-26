@@ -1,12 +1,12 @@
 name = "Simply Vanilla+"
 author = "Maspo109"
-version = "1.0.1"
+version = "1.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "374a66e61e85d9c64f6d14d169550a4e0488c5a037da22a21d50cdd00578e565"
+hash = "b8d1ea7dbbe6ff5714128281d058b3efa38eaf6358d4825fad4d81772a5f0d59"
 
 [versions]
 fabric = "0.15.11"
