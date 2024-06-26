@@ -1,11 +1,14 @@
 name: Release Modpack
 on:
   push:
-    tags:
-      - '*'
+    branches: [ "main" ]
+  pull_request:
+    types: [ "closed" ]
+    branches: [ "main" ]
 
 jobs:
   release:
+    if: github.event.pull_request.merged || github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -39,4 +42,4 @@ jobs:
         with:
           pattern: "build/*.zip"
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          release-url: ${{ steps.create_release.outputs.upload_url }}
+          release-url: ${{ github.ref.release.upload_url }}
