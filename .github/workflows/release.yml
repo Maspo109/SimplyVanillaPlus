@@ -1,0 +1,29 @@
+name: Release Modpack
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    types: [ "closed" ]
+    branches: [ "main" ]
+
+jobs:
+  release:
+    if: github.event.pull_request.merged || github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install packwiz
+        uses: actionhippie/install-packwiz@v1
+
+      - name: Run build script
+        run: |
+          chmod +x ./build.sh
+          ./build.sh
+
+      - name: Upload files
+        uses: fnkr/github-action-ghr@v1
+        env:
+          GHR_PATH: build/
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
