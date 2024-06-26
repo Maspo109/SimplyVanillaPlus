@@ -18,17 +18,25 @@ jobs:
         uses: actionhippie/install-packwiz@v1
 
       - name: Get version
-        run: echo version=v$(grep -e "^version" pack.toml | cut -f3 -d' ' | tr -d '"') >> "$GITHUB_OUTPUT"
         id: version
+        run: echo version=v$(grep -e "^version" pack.toml | cut -f3 -d' ' | tr -d '"') >> "$GITHUB_OUTPUT"
 
       - name: Run build script
         run: |
           chmod +x ./build.sh
           ./build.sh
+        
+      - name: Create tag
+        id: create_tag
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag -a -m "Created version tag for ${{ steps.version.outputs.version }}" ${{ steps.version.outputs.version }} ${{ github.sha }}
+          git push
 
       - name: Create release
-        uses: actions/create-release@v1
         id: create_release
+        uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -42,4 +50,4 @@ jobs:
         with:
           pattern: "build/*.zip"
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          release-url: ${{ github.ref.release.upload_url }}
+          release-url: ${{ steps.create_release.outputs.upload_url }}
