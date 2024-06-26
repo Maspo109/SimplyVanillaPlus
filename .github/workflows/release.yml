@@ -32,7 +32,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git tag -a -m "Created version tag for ${{ steps.version.outputs.version }}" ${{ steps.version.outputs.version }} ${{ github.sha }}
-          git push
+          git push origin tag ${{ steps.version.outputs.version }}
 
       - name: Create release
         id: create_release
@@ -43,7 +43,7 @@ jobs:
           draft: false
           prerelease: false
           release_name: ${{ steps.version.outputs.version }}
-          tag_name: ${{ github.ref }}
+          tag_name: ${{ steps.version.outputs.version }}
 
       - name: Upload assets
         uses: csexton/release-asset-action@v3
