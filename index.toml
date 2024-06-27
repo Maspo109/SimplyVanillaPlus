@@ -55,6 +55,21 @@ hash = "252878ad67eb85e89d725478bd36a64ce6f84b247c3ac8a1851f3b4f553f11f4"
 metafile = true
 
 [[files]]
+file = "mods/create-steam-n-rails.pw.toml"
+hash = "e208db5949d740af56dc496ede6b6bf18be256f3a0c5a589b128ec7a402f615f"
+metafile = true
+
+[[files]]
+file = "mods/croptopia.pw.toml"
+hash = "0bcd1969e90045a3e33769b574182f71a1a80a9f13140eb20558799b7d0782e6"
+metafile = true
+
+[[files]]
+file = "mods/cupboard.pw.toml"
+hash = "42e9848d381b17e3f640320bc3413b4c01bc05d72f94adb18da4a5f372f01add"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "8d0c43fd826b1a5cda1af63e44a98470659b11ad4901ad3b07bff4baad3ef0b9"
 metafile = true
@@ -62,6 +77,11 @@ metafile = true
 [[files]]
 file = "mods/entity-texture-features-fabric.pw.toml"
 hash = "a86547eab618ad283a44dc7cc60e84727b34874d233060100da1f2508ec83bb8"
+metafile = true
+
+[[files]]
+file = "mods/epherolib.pw.toml"
+hash = "9652798b0045301905be00b4bff8c4ded2e8e18c60bcc0bee7521d78f452d7ad"
 metafile = true
 
 [[files]]
@@ -105,11 +125,6 @@ hash = "db138a11b63abaf05df881ad73bdf5a4b67ad21bff0f040eec34cd18d46096e8"
 metafile = true
 
 [[files]]
-file = "mods/just-enough-resources-jer.pw.toml"
-hash = "b38db45e00821e347147acd632bf17c91f9237a35adde827e2b8eb7c20274cb2"
-metafile = true
-
-[[files]]
 file = "mods/just-zoom.pw.toml"
 hash = "77fe56059b77b64c7db8d91dd4ac51ab9583ad34835c4b50810eb8024ec1cfff"
 metafile = true
@@ -132,6 +147,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "2245f34c6d75a8abbce9a07f902d656b34387bcf1c4b60f56ec094ac8a470e19"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations.pw.toml"
+hash = "b694a262eb62d2aa6ea5f3ef62b9fa12eecf311ce73ddf530af5aceba5a67e33"
 metafile = true
 
 [[files]]
@@ -190,6 +210,11 @@ hash = "16499c922a2bf62ecbc740979edb0040f3f2ecab032d005270aabea1a386d321"
 metafile = true
 
 [[files]]
+file = "mods/yung-structures-addon-for-loot-integrations.pw.toml"
+hash = "406b51509bc37efb3f0b9757b6b07c63eaf1fb9ff13057826f536661c3db66cc"
+metafile = true
+
+[[files]]
 file = "mods/yungs-api-fabric.pw.toml"
 hash = "69ffae60381e09911815fb8f46af8300ddf3a06c00a312acd5b2494b47376274"
 metafile = true
@@ -197,6 +222,11 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-desert-temples-fabric.pw.toml"
 hash = "20a940f56c69ac11318234b091909b71f589813915fcd96a0490dde7ef8c4e66"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-dungeons-fabric.pw.toml"
+hash = "35277d9da28c52c4304e71f0036a68eaeb3529a5ec638ab26afa7191f92da976"
 metafile = true
 
 [[files]]

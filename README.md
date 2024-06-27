@@ -8,7 +8,11 @@ The following mods are included in this modpack.
 ### Automation
 - Create
 - Create: Bells and Whistles
+- Create: Steam 'n' Rails
 - Create Deco
+
+### Food
+- Croptopia
 
 ### Immersion
 - Amendments: Vanilla block tweaking
@@ -20,6 +24,7 @@ The following mods are included in this modpack.
 - Sounds: More immersive sounds
 
 ### World Generation
+- Loot Integrations
 - Naturalist: More diverse mobs
 - Terralith: Improved world generation and more biomes
 - YUNG's Better Strutures: Improved Vanilla structures
@@ -33,13 +38,14 @@ The following mods are included in this modpack.
     - Better With Huts
     - Better Desert Temples
     - Bridges
+    - Structures Addon for Loot Integrations
 
 ### Utilities
 - Just Enough Items: Crafting recipes
     - Breeding
     - Effect Descriptions
     - Professions
-    - Resources
+    - ~~Resources~~ (removed due to [incompatibility](https://github.com/way2muchnoise/JustEnoughResources/issues/465))
 - Just Zoom: Zoom with keybinding
 - Travelers Backpack: Backpacks for additional inventory space
 - Xaeros Minimap: Minimap mod
