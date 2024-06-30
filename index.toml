@@ -10,6 +10,11 @@ hash = "58fba241b59c54f307b0746f88398b4c0ca93f007aaba36d75c583fd1d5e46a5"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "13cb21e09b9d0d6622359f24f0bfed0e4123fcbaf7e65a1eb7e5396c47a56349"
+metafile = true
+
+[[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "eb0d74103b07e202b36d7e7e0957afc054d9622acf8ecb738e5856b5144a7b3b"
 metafile = true
@@ -95,6 +100,16 @@ hash = "28f53f38c111e3d6aa7f6854fa976a1456f4094dc504a929a6d4bf1f9f8cc30a"
 metafile = true
 
 [[files]]
+file = "mods/ftb-library-fabric.pw.toml"
+hash = "b652c5d39c9c6438eb493d1142c8f68fe962da39af84750f0fbe3ffb9787f799"
+metafile = true
+
+[[files]]
+file = "mods/ftb-ultimine-fabric.pw.toml"
+hash = "dfa3b6fcff71eda68630dbadf8e23d28713e8ee45fd26a4b1df53a98c804575c"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "37df6121a88ff123078242134b0112c863cd219b6ce80bd4ec79c82a3bb4d8fa"
 metafile = true
@@ -107,6 +122,16 @@ metafile = true
 [[files]]
 file = "mods/irisshaders.pw.toml"
 hash = "d63f86a11cd51694948f270702cc670fc6e18b08515d8c7db3ed1dea95bb8d47"
+metafile = true
+
+[[files]]
+file = "mods/jade-addons-fabric.pw.toml"
+hash = "50480239c900fc4ba5709e6723892c4ffdf31c6fdebcf4fdd1847dba00c094d0"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "31c9dca2e1c97e88975f5f361c69860bc517e42a71e3d7119dc593f31492bccb"
 metafile = true
 
 [[files]]
